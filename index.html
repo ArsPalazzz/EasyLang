@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyLang</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="helpers/regForm.css" rel="stylesheet">
+    <link rel="stylesheet" href="helpers/animate.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="menu">
+                <nav>
+                    <a href="#mainBlock" class="mainTitleHeader">
+                        <img src="images/logo.jpg">
+                        <p>EasyLang</p>
+                    </a>
+                    <ul>
+                        <li><a href="#aboveCoursesBlock">Курсы</a></li>
+                        <li><a href="#aboveTeachersBlock">Наши преподаватели</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="loginBlock js-open-modal"  data-modal="1">
+                <p>Зарегистрироваться / Войти</p>
+                <img class="userIcon" src="images/userIcon.svg">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainBlock" id="mainBlock">
+            <div class="leftSide">
+                <div class="mainText">
+                    <p class="firstP wow fadeInLeft" data-wow-delay="0.5s">Курсы иностранных языков, объединяющие людей</p>
+                    <p class="secondP wow fadeInLeft" data-wow-delay="0.5s">Мы поможем вам говорить на иностранных языках более свободно и уверенно</p>
+                </div>
+                <a href="#aboveCoursesBlock" class="wow fadeIn" data-wow-delay="1.7s"><button class="btn">Просматривайте товары!</button></a>
+            </div>
+            <div class="rightSide wow fadeInUp" data-wow-delay="1s">
+                <div class="gradientBlock">
+                    <p>EasyLang</p>
+                </div>
+            </div>
+        </div>
+        <div class="whyEasyLangBlock wow fadeInUp">
+            <p class="whyEasyLangBlock__title">Почему EasyLang?</p>
+            <p class="whyEasyLangBlock__content">Наша миссия - помочь вам говорить на различных языках без страха и знакомиться с новыми
+                людьми со всего мира. Курсы и онлайн-продукты EasyLang объединяют изучающих язык
+в поддерживающем сообществе, возглавляемом профессиональными учителями. </p>
+        </div>
+        <div class="ourAdvantagesBlock wow fadeInUp">
+
+            <div class="ourAdvantagesBlock__onlineAndOffline">
+                <div class="imageBlock">
+                    <img src="images/online.jpg">
+                </div>
+                <div class="text">
+                    <p class="title">Онлайн & Оффлайн</p>
+                    <p class="content">Учитесь всегда и где бы вы ни находились</p>
+
+                </div>
+            </div>
+            <div class="ourAdvantagesBlock__brilliantTeachers">
+                <div class="imageBlock">
+                    <img src="images/teacher.jpg">
+                </div>
+                <div class="text">
+                    <p class="title">У нас лучшие преподаватели</p>
+                    <p class="content">Наши преподаватели - профессионалы в своей области, которые максимально четко объясняют материал
+                        насколько это возможно</p>
+
+                </div>
+            </div>
+            <div class="ourAdvantagesBlock__convenientScheduleOfClasses">
+                <div class="imageBlock">
+                    <img src="images/schedule.jpg">
+                </div>
+                <div class="text">
+                    <p class="title">Удобное расписание</p>
+                    <p class="content">Расписание наших курсов подобрано подходящее для всех</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="buildingBlock">
+            <div class="gradientAndTextBlock wow fadeInUp" data-wow-delay="0.3s">
+                <p class="title">Наше учебное заведение</p>
+                <p class="content">В этом здании происходит чудо - в нем проводятся наши курсы, где мы преподаем и
+                    учим говорить по-английски, французски и немецки.<br><br> Оно расположено в трех минутах от станции метро "Пушкинская".
+                    <br><br>Здание было построено в 1923 году, и выпустило огромное количество талантливых студентов, которых с каждым годом страновится все больше
+
+                </p>
+            </div>
+            <div class="imageBlock wow fadeInUp">
+                <img src="images/ballion.jpg">
+            </div>
+        </div>
+        <div class="joinUs">
+            <p id="aboveCoursesBlock">Присоединяйся к нам! Присоединяйся к EasyLang!</p>
+        </div>
+        <div class="coursesBlock">
+            <h2>Выбери свой уникальный курс</h2>
+            <div class="courses">
+                <div class="english">
+                    <h4>Английский:</h4>
+                    <div class="cards">
+                        <div class="a1a2">
+                            <h3>BEGINNERS</h3>
+                            <p>Подойдет тем, у кого уровень: A1-A2</p>
+                            <p>Начало следующего потока - 1 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="b1b2">
+                            <h3>ELEMENTARY</h3>
+                            <p>Подойдет тем, у кого уровень: B1-B2</p>
+                            <p>Начало следующего потока - 1 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="c1c2">
+                            <h3>INTERMEDIATE</h3>
+                            <p>Подойдет тем, у кого уровень: C1-C2</p>
+                            <p>Начало следующего потока - 1 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="englishFotIT">
+                    <h4>Английский для IT:</h4>
+                    <div class="cards">
+                        <div class="a1a2">
+                            <h3>BEGINNERS</h3>
+                            <p>Подойдет тем, у кого уровень: A1-A2</p>
+                            <p>Начало следующего потока - 15 сентября (Онлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="b1b2">
+                            <h3>ELEMENTARY</h3>
+                            <p>Подойдет тем, у кого уровень: B1-B2</p>
+                            <p>Начало следующего потока - 15 сентября (Онлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="preparingForTests">
+                    <h4>Подготовка к тестам:</h4>
+                    <div class="cards">
+                        <div class="TOEFL">
+                            <h3>TOEFL</h3>
+                            <p>Тест, разработанный в США, предназначенный для тестирования знаний английского языка абитуриентов</p>
+                            <p>Начало следующего потока - 15 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="IELTS">
+                            <h3>IELTS</h3>
+                            <p>Тест, разработанный в Англии, предназначенный для тестирования знаний английского языка абитуриентов</p>
+                            <p>Начало следующего потока - 15 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="german">
+                    <h4>Немецкий:</h4>
+                    <div class="cards">
+                        <div class="a1a2">
+                            <h3>BEGINNERS</h3>
+                            <p>Подойдет тем, у кого уровень: A1-A2</p>
+                            <p>Начало следующего потока - 8 сентября (Онлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="b1b2">
+                            <h3>ELEMENTARY</h3>
+                            <p>Подойдет тем, у кого уровень: B1-B2</p>
+                            <p>Начало следующего потока - 8 сентября (Онлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="c1c2">
+                            <h3>INTERMEDIATE</h3>
+                            <p>Подойдет тем, у кого уровень: C1-C2</p>
+                            <p>Начало следующего потока - 15 сентября (Онлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                    </div>
+                </div>
+                <div class="french">
+                    <h4>Французский:</h4>
+                    <div class="cards">
+                        <div class="a1a2">
+                            <h3>BEGINNERS</h3>
+                            <p>Подойдет тем, у кого уровень: A1-A2</p>
+                            <p>Начало следующего потока - 29 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="b1b2">
+                            <h3>ELEMENTARY</h3>
+                            <p>Подойдет тем, у кого уровень: B1-B2</p>
+                            <p>Начало следующего потока - 29 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                        <div class="c1c2">
+                            <h3>INTERMEDIATE</h3>
+                            <p>Подойдет тем, у кого уровень: C1-C2</p>
+                            <p>Начало следующего потока - 29 сентября (Оффлайн)</p>
+                            <input type="button" value="Подробнее" href="#" class="js-open-modal2" data-modal="2">
+                        </div>
+                    </div>
+                </div>
+                <p id="aboveTeachersBlock">aaa</p>
+            </div>
+        </div>
+        <div class="ourTeachersBlock" id="teachersBlock">
+            <h3>Наши преподаватели</h3>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <div class="carousel">
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/richardFinale.jpg">
+                        </div>
+                        <p class="name">Ричард</p>
+                        <p class="prof">Преподаватель французского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/olgaFinale.jpg">
+                        </div>
+                        <p class="name">Ольга</p>
+                        <p class="prof">Преподаватель английского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/tatyanaFinale.jpg">
+                        </div>
+                        <p class="name">Татьяна</p>
+                        <p class="prof">Преподаватель немецкого</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/mariaFinale.jpg">
+                        </div>
+                        <p class="name">Мария</p>
+                        <p class="prof">Преподаватель английского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/vladFinale.jpg">
+                        </div>
+                        <p class="name">Владислав</p>
+                        <p class="prof">Преподаватель английского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/dariaFinale.jpg">
+                        </div>
+                        <p class="name">Дарья</p>
+                        <p class="prof">Преподаватель французского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/alexeyFinale.jpg">
+                        </div>
+                        <p class="name">Алексей</p>
+                        <p class="prof">Преподаватель немецкого</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/anastasiaFinale.jpg">
+                        </div>
+                        <p class="name">Анастасия</p>
+                        <p class="prof">Преподаватель английского</p>
+                    </div>
+                    <div class="teacher" draggable="false">
+                        <div class="imageBlock">
+                            <img src="images/andreiFinale.jpg">
+                        </div>
+                        <p class="name">Андрей</p>
+                        <p class="prof">Преподаватель французского</p>
+                    </div>
+                  <!-- <img src="images/olga.jpg" alt="img" draggable="false">
+                  <img src="images/maria.jpg" alt="img" draggable="false">
+                  <img src="images/tatyana.jpg" alt="img" draggable="false">
+                  <img src="images/daria.jpg" alt="img" draggable="false">
+                  <img src="images/olga.jpg" alt="img" draggable="false">
+                  <img src="images/maria.jpg" alt="img" draggable="false">
+                  <img src="images/tatyana.jpg" alt="img" draggable="false">
+                  <img src="images/daria.jpg" alt="img" draggable="false">
+                  <img src="images/man.jpg" alt="img" draggable="false"> -->
+                </div>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+              </div>
+           
+            <div class="container">
+                
+            </div>
+        </div>
+        <div class="contactFormBlock">
+            <h2>Все еще остались вопросы?</h2>
+            <p>Напиши нам!</p>
+            <form>
+                <div class="nameBlock">
+                    
+                    <div class="nameBlockInputs">
+                        <div class="nameBlockInputs__first">
+                            <label>Имя</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="nameBlockInputs__second">
+                            <label>Фамилия</label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="emailBlock">
+                    <label>Email*</label>
+                    <input type="email" required>
+                </div>
+                <div class="messageBlock">
+                    <label>Сообщение*</label>
+                    <textarea required></textarea>
+                </div>
+                <input class="submBut" type="submit" value="Отправить">
+            </form>
+        </div>
+        <div class="mod">
+
+            <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+          
+            <!-- <a href="#" class="js-open-modal2" data-modal="2">Открыть окно 2</a>
+            <a href="#" class="js-open-modal" data-modal="3">Открыть окно 3</a> -->
+
+
+            <!-- Несколько модальных окон -->
+
+            <div class="modal" data-modal="1">
+                <!--   Svg иконка для закрытия окна  -->
+                <div class="container" id="container">
+                    <div class="form-container sign-up-container">
+                        <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                        </svg>
+                        <form action="#">
+                           
+                            <h1>Создать аккаунт</h1>
+                            <input type="text" placeholder="Имя" />
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Пароль" />
+                            <button>Зарегистрироваться</button>
+                        </form>
+                    </div>
+                    <div class="form-container sign-in-container">
+                        <form action="#">
+                            <h1>Войти</h1>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Пароль" />
+                            <button>Войти</button>
+                        </form>
+                    </div>
+                    <div class="overlay-container">
+                        <div class="overlayCont">
+                            <div class="overlay-panel overlay-left">
+                                <h1>С возвращением!</h1>
+                                <p>Чтобы поддерживать с нами связь, пожалуйста, войдите в систему, указав свои личные данные</p>
+                                <button class="ghost" id="signIn">Войти</button>
+                            </div>
+                            <div class="overlay-panel overlay-right">
+                                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                                </svg>
+                                <h1>Привет, друг!</h1>
+                                <p>Введите свои личные данные и начните путешествие с нами</p>
+                                <button class="ghost" id="signUp">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container"> 
+                    
+                    <div class="screen">
+                        <div class="screen__content">
+                            <form class="login">
+                                <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                                </svg>
+                                <div class="logInBlock">
+                                    <p class="logInText">Войти</p>
+                                </div>
+                                <div class="login__field">
+                                    <i class="login__icon fas fa-user"></i>
+                                    <input type="text" class="login__input" placeholder="Имя / Email">
+                                </div>
+                                <div class="login__field">
+                                    <i class="login__icon fas fa-lock"></i>
+                                    <input type="password" class="login__input" placeholder="Пароль">
+                                </div>
+                                <button class="button login__submit js-modal-close">
+                                    <span class="button__text">Войти сейчас</span>
+                                    <i class="button__icon fas fa-chevron-right"></i>
+                                </button>				
+                            </form>
+                             <div class="social-login">
+                                <h3>log in via</h3>
+                                <div class="social-icons">
+                                    <a href="#" class="social-login__icon fab fa-instagram"></a>
+                                    <a href="#" class="social-login__icon fab fa-facebook"></a>
+                                    <a href="#" class="social-login__icon fab fa-twitter"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="screen__background">
+                            <span class="screen__background__shape screen__background__shape4"></span>
+                            <span class="screen__background__shape screen__background__shape3"></span>		
+                            <span class="screen__background__shape screen__background__shape2"></span>
+                            <span class="screen__background__shape screen__background__shape1"></span>
+                        </div>		
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="modal2" data-modal="2">
+                <!--   Svg иконка для закрытия окна  -->
+                <svg class="modal__cross2 js-modal-close2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg>
+                <h2 class="modal__title2">Английский с нуля</h2>
+                <p>Курс для тех, кто никогда не изучал или только начинает
+                    изучать английский язык</p>
+                <h4>ПОСЛЕ ПРОХОЖДЕНИЯ КУРСА ВЫ СМОЖЕТЕ:                </h4>
+                <p>- Спросить дорогу и понять ответ;<br>
+                    - Объясниться в простых бытовых ситуациях, требующих прямого обмена информацией на знакомые темы;<br>
+                    - Понимать суть англоязычных телерепортажей в сопровождении видеоряда;<br>
+                    - Прочесть и понять элементарное письмо на английском языке.<br><br>
+                    
+                    Формат занятий - Офлайн и онлайн<br>
+                    Стоимость - от 20 рублей за занятие 90 мин<br>
+                    Оплата - месяц/семестр/курс<br>
+                    Длительность курса 6/8 месяцев<br>
+                    Интенсивность 2/3 раза в неделю<br>
+                    Расписание будет сформировано после набора половины группы с учетом их пожеланий
+                <input type="button" value="Записаться на курс" href="#" class="js-open-modal3 js-modal-close2" data-modal="3">
+            </div>
+
+            <div class="modal3" data-modal="3">
+                <!--   Svg иконка для закрытия окна  -->
+                <svg class="modal__cross3 js-modal-close3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+                </svg>
+                <h2 class="modal__title3">Записаться на курс</h2>
+                <form>
+                    <div class="name">
+                        <label>Имя</label>
+                        <input>
+                    </div>
+                    <div class="phone">
+                        <label>Номер телефона</label>
+                        <input>
+                    </div>
+                    <div class="course">
+                        <label>Курс</label>
+                        <input>
+                    </div>
+                    <input type="button" value="Отправить">
+                </form>
+                <!-- <p>Курс для тех, кто никогда не изучал или только начинает
+                    изучать английский язык</p>
+                <h4>ПОСЛЕ ПРОХОЖДЕНИЯ КУРСА ВЫ СМОЖЕТЕ:                </h4>
+                <p>- Спросить дорогу и понять ответ;<br>
+                    - Объясниться в простых бытовых ситуациях, требующих прямого обмена информацией на знакомые темы;<br>
+                    - Понимать суть англоязычных телерепортажей в сопровождении видеоряда;<br>
+                    - Прочесть и понять элементарное письмо на английском языке.<br><br>
+                    
+                    Формат занятий - Офлайн и онлайн<br>
+                    Стоимость - от 20 рублей за занятие 90 мин<br>
+                    Оплата - месяц/семестр/курс<br>
+                    Длительность курса 6/8 месяцев<br>
+                    Интенсивность 2/3 раза в неделю<br>
+                    Утренние/вечерние группы
+                <input type="button" value="Записаться на курс"> -->
+            </div>
+
+            <!-- Подложка под модальным окном -->
+            <div class="overlay js-overlay-modal"></div>
+            <div class="overlay2 js-overlay-modal2"></div>
+            <div class="overlay3 js-overlay-modal3"></div>
+        </div>
+    </main>
+    <footer id="myFooter">
+        <div class="footerFlex">
+            <div class="part1">
+                <div class="part1Flex">
+                    <div class="footInf">
+                        <div class="footInfFlex">
+                            <h2>EasyLang</h2>
+                            <p>Мы помогаем тысячам людям заговорить на иностранных языках <br>Так чего же ты ждешь? </p>
+                        </div>
+                    </div>
+                    <div class="footCont">
+                        <div class="footContFlex">
+                            <div class="phNemail">
+                                <h2>Контакты</h2>
+                                <p>Номер телефона: +375291848984<br>Gmail: ddayker@gmail.com</p>
+                            </div>
+                            <div class="messages">
+                                <div class="messagesFlex">
+                                    <div class="youtube">
+                                        <a href="https://www.youtube.com/channel/UCTm30kMIP_zf2Q7b8BLkCsg">
+                                            <svg id="Layer_1" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                                                viewBox="0 0 1000 1000" xml:space="preserve"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <style type="text/css">
+                                                    .st0 {
+                                                        fill: #FFFFFF;
+                                                    }
+                                                </style>
+                                                <title />
+                                                <g>
+                                                    <path
+                                                        d="M500,1000L500,1000C223.9,1000,0,776.1,0,500l0,0C0,223.9,223.9,0,500,0l0,0c276.1,0,500,223.9,500,500l0,0   C1000,776.1,776.1,1000,500,1000z" />
+                                                    <path class="st0"
+                                                        d="M818.2,339.1c-7.6-28.8-30.1-51.4-58.7-59.1c-51.8-14-259.4-14-259.4-14s-207.7,0-259.4,14   c-28.6,7.7-51.1,30.3-58.7,59.1C168,391.2,168,500,168,500s0,108.8,13.9,160.9c7.6,28.8,30.1,51.4,58.7,59.1   c51.8,14,259.4,14,259.4,14s207.7,0,259.4-14c28.6-7.7,51.1-30.3,58.7-59.1C832,608.8,832,500,832,500S832,391.2,818.2,339.1z    M432.1,598.7V401.3L605.6,500L432.1,598.7z" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="inst">
+                                        <a href="https://www.instagram.com/ddayker/">
+                                            <svg id="Layer_2" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                                                viewBox="0 0 1000 1000" xml:space="preserve"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <style type="text/css">
+                                                    .st0 {
+                                                        fill: #FFFFFF;
+                                                    }
+                                                </style>
+                                                <path
+                                                    d="M500,1000L500,1000C223.9,1000,0,776.1,0,500l0,0C0,223.9,223.9,0,500,0l0,0c276.1,0,500,223.9,500,500l0,0  C1000,776.1,776.1,1000,500,1000z" />
+                                                <g>
+                                                    <path class="st0"
+                                                        d="M500,220.2c91.1,0,101.9,0.3,137.9,2c33.3,1.5,51.4,7.1,63.4,11.8c15.9,6.2,27.3,13.6,39.2,25.5   s19.3,23.3,25.5,39.2c4.7,12,10.2,30.1,11.8,63.4c1.6,36,2,46.8,2,137.9s-0.3,101.9-2,137.9c-1.5,33.3-7.1,51.4-11.8,63.4   c-6.2,15.9-13.6,27.3-25.5,39.2s-23.3,19.3-39.2,25.5c-12,4.7-30.1,10.2-63.4,11.8c-36,1.6-46.8,2-137.9,2s-101.9-0.3-137.9-2   c-33.3-1.5-51.4-7.1-63.4-11.8c-15.9-6.2-27.3-13.6-39.2-25.5c-11.9-11.9-19.3-23.3-25.5-39.2c-4.7-12-10.2-30.1-11.8-63.4   c-1.6-36-2-46.8-2-137.9s0.3-101.9,2-137.9c1.5-33.3,7.1-51.4,11.8-63.4c6.2-15.9,13.6-27.3,25.5-39.2   c11.9-11.9,23.3-19.3,39.2-25.5c12-4.7,30.1-10.2,63.4-11.8C398.1,220.5,408.9,220.2,500,220.2 M500,158.7   c-92.7,0-104.3,0.4-140.7,2.1c-36.3,1.7-61.1,7.4-82.9,15.9C254,185.3,234.9,197,216,216c-19,19-30.6,38-39.4,60.5   c-8.4,21.7-14.2,46.5-15.9,82.9s-2.1,48-2.1,140.7s0.4,104.3,2.1,140.7c1.7,36.3,7.4,61.1,15.9,82.9C185.3,746,197,765.1,216,784   c19,19,38,30.6,60.5,39.4c21.7,8.4,46.5,14.2,82.9,15.9s48,2.1,140.7,2.1s104.3-0.4,140.7-2.1c36.3-1.7,61.1-7.4,82.9-15.9   C746,814.7,765.1,803,784,784c19-19,30.6-38,39.4-60.5c8.4-21.7,14.2-46.5,15.9-82.9s2.1-48,2.1-140.7s-0.4-104.3-2.1-140.7   c-1.7-36.3-7.4-61.1-15.9-82.9C814.7,254,803,234.9,784,216c-19-19-38-30.6-60.5-39.4c-21.7-8.4-46.5-14.2-82.9-15.9   C604.3,159.1,592.7,158.7,500,158.7L500,158.7z" />
+                                                    <path class="st0"
+                                                        d="M500,324.7c-96.8,0-175.3,78.5-175.3,175.3S403.2,675.3,500,675.3S675.3,596.8,675.3,500   S596.8,324.7,500,324.7z M500,613.8c-62.8,0-113.8-50.9-113.8-113.8s51-113.8,113.8-113.8S613.8,437.1,613.8,500   S562.8,613.8,500,613.8z" />
+                                                    <circle class="st0" cx="682.2" cy="317.8" r="41" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="vk">
+                                        <a href="https://vk.com/ddayker">
+                                            <svg id="Layer_3" style="enable-background:new 0 0 1000 1000;" version="1.1"
+                                                viewBox="0 0 1000 1000" xml:space="preserve"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <style type="text/css">
+                                                    .st0 {
+                                                        fill: #FFFFFF;
+                                                    }
+                                                </style>
+                                                <title />
+                                                <g>
+                                                    <path
+                                                        d="M500,1000L500,1000C223.9,1000,0,776.1,0,500l0,0C0,223.9,223.9,0,500,0l0,0c276.1,0,500,223.9,500,500l0,0   C1000,776.1,776.1,1000,500,1000z" />
+                                                    <path class="st0"
+                                                        d="M819,344.5c4.6-15.5,0-26.8-22.1-26.8H724c-18.5,0-27.1,9.8-31.7,20.6c0,0-37.1,90.4-89.6,149.1   c-17,17-24.7,22.4-34,22.4c-4.6,0-11.3-5.4-11.3-20.9V344.5c0-18.5-5.4-26.8-20.8-26.8H422c-11.6,0-18.6,8.6-18.6,16.8   c0,17.6,26.3,21.6,29,71.1V513c0,23.5-4.3,27.8-13.5,27.8c-24.7,0-84.8-90.8-120.5-194.7c-7-20.2-14-28.3-32.6-28.3h-72.9   c-20.8,0-25,9.8-25,20.6c0,19.3,24.7,115.1,115.1,241.8c60.3,86.5,145.1,133.4,222.4,133.4c46.3,0,52.1-10.4,52.1-28.4v-65.4   c0-20.8,4.4-25,19.1-25c10.8,0,29.4,5.4,72.6,47.1c49.4,49.4,57.6,71.6,85.4,71.6h72.9c20.8,0,31.2-10.4,25.2-31   c-6.6-20.5-30.2-50.2-61.5-85.5c-17-20.1-42.5-41.7-50.2-52.5c-10.8-13.9-7.7-20.1,0-32.4C720.9,512.1,809.7,387,819,344.5z"
+                                                        id="Logo" />
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="part2Flex">
+                    <p>Copyright &copy; 2022 - Все права защищены</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="helpers/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="index.js"></script>
+    <script src="slider.js" defer></script>
+    <script src="helpers/regForm.js"></script>
+</body>
+
+</html>
